@@ -161,7 +161,7 @@ const styles = StyleSheet.create({
   listView: {
     borderWidth: 1,
     minHeight: 300,
-    maxHeight: 400,
+    height: 400,
     borderRadius: 5,
     width: "100%",
     display: "flex",
