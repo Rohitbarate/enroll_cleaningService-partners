@@ -11,10 +11,10 @@ export default function App() {
   const Stack = createNativeStackNavigator();
   return (
    <NavigationContainer>
-    <Stack.Navigator initialRouteName='Home' screenOptions={{headerTitleAlign:'center',headerTitleShown:'false'}}>
-      <Stack.Screen name='Home' component={Home} />
-      <Stack.Screen name='Details1' component={DetailsForm} />
-      <Stack.Screen name='services' component={ServicesForm} />
+    <Stack.Navigator initialRouteName='Home' screenOptions={{headerTitleAlign:'center',headerShown:false}}>
+      <Stack.Screen name='Home' component={Home}  />
+      <Stack.Screen name='DetailsForm' component={DetailsForm} />
+      <Stack.Screen name='ServicesForm' component={ServicesForm} />
     </Stack.Navigator>
    </NavigationContainer>
   );
